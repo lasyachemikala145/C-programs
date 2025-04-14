@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char s[100];
+	int i;
+	printf("enter a given a word:");
+	scanf("%s",s);
+	int len=strlen(s);
+	for(i=0;i<len;i++)
+	{
+		printf("*");
+	}
+	printf("%s",s);
+}
